@@ -1,9 +1,10 @@
 disk = {
-  location = "weseurope"
+  location = "westeurope"
   size = "200"
+  name = "diskname"
 }
 
 rgname = {
-  location = "weseurope"
+  location = "westeurope"
   name = "azureTimes55"
 }
