@@ -8,7 +8,7 @@ variable "rgname" {
     })
     
     default = {
-        name        = "Azure Times 55"
+        name        = "azureTimes55"
         location    = "westeurope"
     }
 
