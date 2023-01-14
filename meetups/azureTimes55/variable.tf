@@ -1,21 +1,3 @@
-variable "azuretimes" {
-
-    description = "Azure Times Meetup Details"
-
-    type = object ({
-        meetup    = string
-        location = string
-    })
-    
-    default = {
-      meetup      = "azuretimesnext"
-      location    = "westeurope"
-    }
-
-    
-
-}
-
 variable "rgname" {
 
     description = "Azure Resource Group Name"
