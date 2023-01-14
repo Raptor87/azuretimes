@@ -4,7 +4,6 @@ azuretimes = {
 }
 
 disk = {
-  creation_option = "Empty"
   location = "weseurope"
   size = "200"
 }
