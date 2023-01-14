@@ -1,10 +1,11 @@
 disk = {
-  location = "westeurope"
+  creation_option = "Empty"
+  disk_sku = "UltraSSD_LRS"
+  name = "aazuretimes"
   size = "200"
-  name = "diskname"
 }
 
 rgname = {
   location = "westeurope"
-  name = "azureTimes55"
+  name = "azuretimes55"
 }

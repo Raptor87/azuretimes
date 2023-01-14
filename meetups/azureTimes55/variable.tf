@@ -7,13 +7,6 @@ variable "rgname" {
         location = string
     })
     
-    default = {
-      name     = "azuretimesnext"
-      location = "westeurope"
-    }
-    
-
-
 }
 
 variable "disk" {
@@ -25,14 +18,5 @@ variable "disk" {
         disk_sku = string
         creation_option = string
         size = string
-        location = string
     })
-    default = {
-       name            = "azuretimesnext"
-       disk_sku        = "UltraSSD_LRS"
-       creation_option = "Empty"
-       size            = "100"
-       location        = "westeurope"
-    }
-
 }
