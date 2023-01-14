@@ -26,8 +26,8 @@ variable "rgname" {
     })
     
     default = {
-      name     = var.azuretimes.meetup
-      location = var.azuretimes.location
+      name     = "azuretimesnext"
+      location = "westeurope"
     }
     
 
@@ -43,12 +43,14 @@ variable "disk" {
         disk_sku = string
         creation_option = string
         size = string
+        location = string
     })
     default = {
-       name            = var.azuretimes.meetup
+       name            = "azuretimesnext"
        disk_sku        = "UltraSSD_LRS"
        creation_option = "Empty"
        size            = "100"
+       location        = "westeurope"
     }
 
 }
