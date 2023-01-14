@@ -1,4 +1,5 @@
-variable azuretimes {
+variable "azuretimes" {
+
     description = "Azure Times Meetup Details"
 
     type = object ({
@@ -10,8 +11,6 @@ variable azuretimes {
     location    = "westeurope"
 
 }
-
-
 
 variable "rgname" {
 
