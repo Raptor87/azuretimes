@@ -1,7 +1,7 @@
 disk = {
   creation_option = "Empty"
   disk_sku = "UltraSSD_LRS"
-  name = "aazuretimes"
+  name = "azuretimes"
   size = "200"
 }
 
