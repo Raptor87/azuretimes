@@ -3,12 +3,16 @@ variable "azuretimes" {
     description = "Azure Times Meetup Details"
 
     type = object ({
-        name    = string
+        meetup    = string
         location = string
     })
     
-    name      = "azuretimes55"
-    location    = "westeurope"
+    default = {
+      meetup      = "azuretimesnext"
+      location    = "westeurope"
+    }
+
+    
 
 }
 
@@ -21,8 +25,11 @@ variable "rgname" {
         location = string
     })
     
-    name     = var.azuretimes.name
-    location = var.azuretimes.location
+    default = {
+      name     = var.azuretimes.meetup
+      location = var.azuretimes.location
+    }
+    
 
 
 }
@@ -37,10 +44,11 @@ variable "disk" {
         creation_option = string
         size = string
     })
-    
-    name            = var.azuretimes.name
-    disk_sku        = "UltraSSD_LRS"
-    creation_option = "Empty"
-    size            = "100"
+    default = {
+       name            = var.azuretimes.meetup
+       disk_sku        = "UltraSSD_LRS"
+       creation_option = "Empty"
+       size            = "100"
+    }
 
 }
