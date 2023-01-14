@@ -1,6 +1,11 @@
 variable azuretimes {
     description = "Azure Times Meetup Details"
-    type        = string
+
+    type = object ({
+        meetup    = string
+        location = string
+    })
+    
     meetup      = "azuretimes55"
     location    = "westeurope"
 
