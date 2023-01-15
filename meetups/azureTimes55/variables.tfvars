@@ -6,8 +6,9 @@ rg_list = [
         name = "name"
         }   
     }
-],
-disk_list= [
+]
+
+disk_list = [
     {
 disk_name = "disk"
 disk_sku = "UltraSSD_LRS"
