@@ -1,6 +1,4 @@
-name {
-    name = "azuretimes55"
-}
+name = "azuretimes55"
 location = "westeurope"
 tags = {
     name = "name"
