@@ -10,8 +10,8 @@ module "rg" {
 
 resource "azurerm_managed_disk" "md-ultra" {
     name = "test"
-    location = azurerm_resource_group.rg.location
-    resource_group_name = azurerm_resource_group.rg.name
+    location = module.rg.location
+    resource_group_name = module.rg..name
     storage_account_type = "UltraSSD_LRS"
     disk_size_gb = "124"
 }
