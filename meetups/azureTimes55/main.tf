@@ -16,6 +16,4 @@ resource "azurerm_managed_disk" "md-ultra" {
     resource_group_name = azurerm_resource_group.rg.name
     storage_account_type = "UltraSSD_LRS"
     disk_size_gb = "124"
-
-  
 }
