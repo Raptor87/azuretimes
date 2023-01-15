@@ -1,9 +1,7 @@
-variable "rgname" {
- name = "azuretimes55"
- location = "westeurope"
- tags =  {
-    Name = "test"
-     }   
+name = "azuretimes55"
+location = "westeurope"
+tags = {
+    name = "name"
 }
 
 
