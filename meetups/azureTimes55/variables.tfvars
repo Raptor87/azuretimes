@@ -8,7 +8,7 @@ rg_list = [
 }
 ]
 
-rg_disk = [
+disk_list= [
 {
 disk_name = "disk"
 disk_sku = "UltraSSD_LRS"
