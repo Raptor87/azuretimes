@@ -1,8 +1,10 @@
 module "rg" {
+
   source = "../../Terraform/modules/azurerm_rg"
-  name = var.rg.name
-  location = var.rg.location
-  tags = var.rg.tags
+  name = var.rgname.name
+  location = var.rgname.location
+  tags = var.rgname.tags
+
 }
 
 

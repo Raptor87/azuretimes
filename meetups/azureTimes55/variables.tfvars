@@ -1,11 +1,9 @@
-variable "rg" {
+variable "rgname" {
  name = "azuretimes55"
  location = "westeurope"
  tags =  {
     Name = "test"
-
- }   
-    
+     }   
 }
 
 
