@@ -1,2 +1,2 @@
 variable "rg_list" {}
-variable "rg_disk" {}
+variable "diks_list" {}
