@@ -1,13 +1,14 @@
-variable "rgname" {
+variable "rg" {
+ name = "azuretimes55"
+ location = "westeurope"
+ tags =  {
+    Name = "test"
 
-    description = "Azure Resource Group Name"
-
-    type = object ({
-        name     = string
-        location = string
-    })
+ }   
     
 }
+
+
 
 variable "disk" {
 
@@ -19,4 +20,9 @@ variable "disk" {
         creation_option = string
         size = string
     })
+
+
+
+
+
 }

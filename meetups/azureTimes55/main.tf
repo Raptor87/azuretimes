@@ -1,14 +1,10 @@
-resource "azurerm_resource_group" "rg" {
-
-    name = var.rgname.name
-    location = var.rgname.location
-
-    tags = {
-      "purpose" = "azureTimes55"
-      "Test"    = "test"
-    }
-  
+module "rg" {
+  source = "../../Terraform/modules/azurerm_rg"
+  name = var.name
+  location = var.location
+  tags = var.tags
 }
+
 
 resource "azurerm_managed_disk" "md-ultra" {
 
