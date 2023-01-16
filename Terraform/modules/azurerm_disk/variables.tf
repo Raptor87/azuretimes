@@ -11,7 +11,7 @@ variable "disk_sku" {
 variable "disk_creation_option" {
   description = "The creation option"
   type        = string
-  default = "Empty"
+  default     = "Empty"
 }
 
 variable "disk_size" {
